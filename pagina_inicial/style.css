@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+html, body {
+    background-color: antiquewhite;
+    color: #6692BA;
+    overflow-x: hidden;
+    font-family: 'Kavivanar', cursive;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #6692BA;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.card {
+    box-shadow: 0 5px 5px #6692BA88;
+    background-color: antiquewhite;
+}
+.card-padding {
+    padding: 20px;
+}
+header {
+    background-color: bisque;
+    border-radius: 0 0 20px 20px;
+    padding: 10px 0;
+}
+header > div {
+    gap: 20px;
+    justify-content: space-between;
+
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#logo-blog-menu {
+    width: 50%;
+}
+section {
+    padding: 50px 0;
+}
+.principal {
+    justify-content: space-between;
+}
+.principal article {
+    width: 70%;
+}
+.article-info * {
+    margin: 0;
+}
+.article-info {
+    padding: 20px;
+}
+.article-info h2 {
+    padding: 5px 0;
+}
+.article-img {
+    overflow: hidden;
+}
+.article-img img {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+article:hover img {
+    transform: scale(1.2);
+}
+.sidebar {
+    width: calc(30% - 30px);
+    text-align: center;
+}
+.sidebar .info-bianca img {
+    border-radius: 50%;
+    width: 180px;
+}
+.sidebar .card:first-child {
+    margin-bottom: 30px;
+}
+.redes-sociais {
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redes-sociais a {
+    transition: all .4s ease-in-out;
+}
+.redes-sociais a:hover {
+    filter: brightness(150%);
+}
+
+
+/* Logo */
+.logo_bianca {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.logo_bianca img{
+    width: 30px;
+}
