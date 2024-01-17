@@ -21,6 +21,9 @@ a {
 .flex {
     display: flex;
 }
+.pb-3{
+    padding-bottom: 3rem;
+}
 .card {
     box-shadow: 0 5px 5px #6692BA88;
     background-color: antiquewhite;
@@ -83,7 +86,11 @@ header li a:hover {
     width: 50%;
 }
 section {
-    padding: 50px 0;
+    padding: 20px 0 50px;
+}
+article > h6{
+    text-align: right;
+    margin: 0 0 10px 0;
 }
 .article-img-principal {
     height: 400px;
@@ -97,7 +104,7 @@ section {
     margin: auto;
 }
 .article-info-principal  * {
-    margin: 0;
+    margin: 0 auto;
 }
 .article-info-principal  {
     padding: 20px;
