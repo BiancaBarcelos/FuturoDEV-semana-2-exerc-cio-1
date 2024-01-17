@@ -23,7 +23,11 @@ a {
 }
 .card {
     box-shadow: 0 5px 5px #6692BA88;
-    background-color: antiquewhite;
+    background-color: #fafafa;
+}
+.card a{
+    display: block;
+    height: 100%;
 }
 .card-padding {
     padding: 20px;
@@ -92,6 +96,9 @@ section {
 .principal article {
     width: 70%;
 }
+#artigos{
+    padding-top: 0;
+}
 .article-info * {
     margin: 0;
 }
@@ -100,9 +107,15 @@ section {
 }
 .article-info h2 {
     padding: 5px 0;
+    height: 105px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
 }
 .article-img {
     overflow: hidden;
+    max-height: 450px;
 }
 .article-img img {
     transform: scale(1.1);

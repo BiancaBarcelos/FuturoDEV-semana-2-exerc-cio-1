@@ -26,7 +26,7 @@ a {
 }
 .card {
     box-shadow: 0 5px 5px #6692BA88;
-    background-color: antiquewhite;
+    background-color: #fafafa;
 }
 .card-padding {
     padding: 20px;
@@ -129,6 +129,11 @@ article > h6{
 }
 .article-info h2 {
     padding: 5px 0;
+    height: 105px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
 }
 .article-img {
     overflow: hidden;
